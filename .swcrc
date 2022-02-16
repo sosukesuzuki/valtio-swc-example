@@ -4,6 +4,9 @@
         "syntax": "ecmascript",
         "jsx": true
       },
-      "target": "es5"
+      "target": "es5",
+      "experimental": {
+        "plugins": [["swc-plugin-valtio", {}]]
+      }
     }
   }
