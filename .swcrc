@@ -1,12 +1,12 @@
 {
-    "jsc": {
-      "parser": {
-        "syntax": "ecmascript",
-        "jsx": true
-      },
-      "target": "es5",
-      "experimental": {
-        "plugins": [["swc-plugin-valtio", {}]]
-      }
+  "jsc": {
+    "parser": {
+      "syntax": "ecmascript",
+      "jsx": true
+    },
+    "target": "es5",
+    "experimental": {
+      "plugins": [["swc-plugin-valtio", {}]]
     }
   }
+}
