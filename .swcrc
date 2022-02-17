@@ -4,7 +4,11 @@
       "syntax": "ecmascript",
       "jsx": true
     },
-    "target": "es5",
+    "transform": {
+      "react": {
+        "runtime": "automatic"
+      }
+    },
     "experimental": {
       "plugins": [["swc-plugin-valtio", {}]]
     }
